@@ -1,23 +1,34 @@
-# Individual Insights: Strategy Development Process
+# Leverage AI Tools for Leadership Execution, Module 6 Lab
 
-> Module 6 · Leverage AI Tools for Leadership Execution
->
-> Your personal reflection on building the strategy end to end.
+## Name how you decide, in your own world
+- **Your company context. Name your company, your product, your market, and the main constraints you operate under.:** I work at Linde Engineering, leading internal digital products for the engineering, procurement, and construction (EPC) business. My portfolio includes LEPA, which supports proposal execution; Competency Intelligence, which supports workforce capability assessment and development; and Valve Lifecycle Hub, currently in discovery.
+My users span Engineering, Proposal Management, Procurement, Sales, Project Execution, and HR across business units and countries. These products serve an internal enterprise market, where value comes from faster workflows, better decisions, less manual work, and reliable adoption.
+My main constraints are limited development capacity, competing business-unit priorities, integration with existing enterprise systems, security and data governance requirements, and uneven user adoption. I must balance regional needs with reusable global capabilities and demonstrate measurable value before expanding scope or introducing AI.
+- **Strategy. How do you tell a real strategy from a list of goals in your world?:** I consider a strategy real when it identifies whose operational problem we will solve first, how solving it creates business value, and what we will deliberately leave out. “Roll out globally, add AI, and improve efficiency” is a list of goals until it guides resource decisions.
+For LEPA, a strategic choice would be to make selected engineering data available earlier so Procurement can begin planning before documents are finalized. That choice must specify the users and workflows in scope, the information ownership and integrations required, and how we will measure reduced waiting or rework.
+My test is whether the strategy helps my team accept or reject a business-unit request without needing me in every discussion. If every request fits, the choices are not clear enough.
+- **Prioritization. How do you separate what is loud from what is strategic in your actual backlog?:** I separate the urgency of the requester from the impact of the problem. In LEPA, I ask whether a request removes a demonstrated workflow or adoption barrier, reduces waiting or rework, or creates a reusable capability across business units. Seniority and repeated requests trigger investigation, not automatic priority.
+I compare that value against total effort, integration dependencies, support burden, and what our small development team would have to postpone. For example, fixing an assignment flow that repeatedly blocks proposal teams may outrank a custom dashboard requested by one executive.
+I protect capacity for critical defects and existing commitments, and I test uncertain requests before funding full development. Every priority decision must name the expected outcome, the evidence behind it, and the work we are choosing not to do.
+- **Teams. How do you approach a difficult conversation when someone's performance needs to change?:** I first check whether I made expectations clear and whether the person has the capacity, access, and support to meet them. In LEPA, slow delivery or reluctance to adopt the tool may reflect competing priorities or workflow friction, so I investigate before labeling it a performance problem.
+I discuss a specific, recent example: what happened, the observable behavior, and its impact, then ask for their perspective. I acknowledge any part my scope or resourcing decisions played.
+We agree on the change needed, who owns it, what support I will provide, and a follow-up date. When I do not manage the person directly, I work with their manager on commitments and capacity rather than assuming authority. If the gap continues after expectations and support are clear, I address the pattern explicitly and involve the appropriate manager.
+- **Alignment. How do you hold a no, or bring a stakeholder to agreement, when priorities collide?:** I first understand what the stakeholder is protecting: a proposal deadline, engineering capacity, budget, or a regional business need. I distinguish an existing commitment from a new request and make the trade-off explicit.
+When I say no, I state what we will not do, for what period, and which agreed outcome that decision protects. For example, I would defer a business-unit-specific LEPA dashboard if it displaced a fix blocking proposal execution, while checking whether existing reporting could meet the immediate need.
+I offer a concrete next step with an owner and date, without implying a delivery promise. If agreement requires changing funding or cross-unit priorities beyond my authority, I bring the sponsor a clear recommendation, alternatives, and the work each option would displace. I document the decision so it holds beyond the meeting.
+- **Financials. How do you judge whether a bet is worth making, and what would make you kill it?:** I judge a bet by the operational improvement it can deliver and whether that value justifies the full cost of development, integration, rollout, training, and support. For LEPA, I would estimate time saved using actual task frequency and realistic adoption, while distinguishing capacity released from cash savings. I label estimates and avoid counting the same benefit twice.
+I test the assumption that could change the decision most: will users adopt the workflow, will it reduce work rather than move it elsewhere, and will enough teams benefit? I compare the investment with the best alternative use of our limited development capacity.
+Before starting, I set a metric, threshold, review date, decision owner, and funding consequence. If the pilot misses that threshold—or introduces unacceptable rework or support costs—I stop expansion and reallocate the remaining capacity. A working demo or money already spent is not enough reason to continue.
+- **AI. Where do you let AI lead, where a human signs off, and what you never hand over?:** I let AI take the first pass on research synthesis, requirements drafts, prototypes, code, and analysis of approved data. In Competency Intelligence, AI-assisted development helps accelerate building; in LEPA, proposed AI capabilities must address a specific workflow problem before becoming roadmap commitments.
+A human reviews outputs before they affect production or business decisions. Developers validate code and security; domain experts verify engineering information; product and business owners approve scope, cost, and customer-facing commitments. AI-generated recommendations must expose their sources, assumptions, and uncertainty.
+I never hand over accountability, investment decisions, engineering approvals, employee assessments, or stakeholder commitments. I retain judgment over which problem matters and whether the evidence supports action. Every AI-assisted deliverable has a named human owner, and sensitive company data stays within approved environments.
 
-## Friction points
-
-_What was the hardest part of building this strategy, and how did you work through it?_
-
-> _____
-
-## Key learnings
-
-_A few surprising discoveries or insights you gained from the course overall._
-
-> _____
-
-## "Aha!" moment
-
-_Your main "aha" moment during the project process._
-
-> _____
+## Teach it the people you answer to
+- **Who they are and their role:** Oliver Slaby — IT Director at Linde Engineering: A key stakeholder for technical delivery, development resources, and enterprise IT alignment.
+Global VP of Digitalization & IT at Linde Engineering: The executive stakeholder who requested LEPA’s global rollout, supported by a business case and KPIs.
+- **What they care about most:** Oliver Slaby: Feasible delivery with limited development capacity, secure integration with enterprise systems, and clear ownership of maintenance and support. This is a working assumption based on his role.
+Global VP of Digitalization & IT: Demonstrable business value from LEPA’s global rollout, supported by a credible business case and KPIs. Adoption across business units and scalable governance are important considerations for that expansion.
+- **What they tend to push back on:** Oliver Slaby: I would anticipate pushback on scope that exceeds development capacity, duplicates existing systems, introduces integration or security risks, or lacks a clear support owner.
+Global VP of Digitalization & IT: I would anticipate pushback on global rollout proposals without measurable benefits, credible adoption plans, clear investment needs, or a convincing approach to reuse across business units.
+- **What earns their yes:** Oliver Slaby: A scoped proposal with realistic effort estimates, clear integration and security requirements, named delivery and support owners, and explicit trade-offs against existing commitments.
+Global VP of Digitalization & IT: A clear investment recommendation backed by credible business value, measurable KPIs, a phased global rollout, business-unit adoption ownership, and evidence that the solution can scale.
